@@ -63,9 +63,9 @@ grave_piano_upper = \relative c''
     <a ees' g a> <a ees' g a> <a e' g a> <a e' g>
       <a d fis> <a d fis> <d fis a> <a d fis>
     \clef bass
-    <a c d> <a c d> <a c ees> <a c d> <bes d> <bes d e> <bes d e> <bes d e>
-    <a cis e> <a cis f> <f e' f> <f d' f> <g d' f> <g d' f> <g c f> <g c e!>
-    <g bes e> <g a e'> <f a e'> <f a d> <f bes d> <f bes d> <f b d> <f b d>
+    <a c d> <a c d> ~ <a c ees> <a c d> <bes d> <bes d e> <bes d e> <bes d e>
+    <a cis e> <a cis f> <f e' f> <f d' f> <g d' f> <g d' f> <g c f> ~ <g c e!>
+    <g bes e> <g a e'> <f a e'> ~ <f a d> <f bes d> <f bes d> <f b d> <f b d>
   }
   \alternative
   {
@@ -81,7 +81,7 @@ grave_piano_upper = \relative c''
     <d bes' d> <g bes d> <a, f' bes> <a f' bes>
   \clef treble
   <g' bes ees> <g bes ees> <g c ees> <g c ees>
-    <f a ees'> <f a f'> <f bes f'> <fis bes fis'>
+    <f a ees'> <f a f'> <f bes f'> ~ <fis bes fis'>
   <bes ees a> <bes ees g> <bes c g'> <bes c gis'>
     <c f bes> <c ees! a> <bes ees gis bes> <bes ees gis bes>
   <bes d f bes> <bes d f bes> <c ees g bes> <c ees f a>
