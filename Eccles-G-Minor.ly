@@ -10,7 +10,6 @@
 {
   title = "Sonata in G Minor"
   composer = "Henri Eccles (1670-1742)"
-  arranger = "Joseph Salmon (1864-1943)"
   tagline = "https://github.com/daemonblade/eccles-g-minor"
   copyright = \markup { \char ##x00A9 "2016 Jonathan Chen" }
 }
@@ -382,6 +381,10 @@ vivace_piano_lower = \relative c
 \book
 {
   \bookOutputSuffix "All"
+  \header
+  {
+    arranger = "Joseph Salmon (1864-1943)"
+  }
   \score
   {
     \new StaffGroup
