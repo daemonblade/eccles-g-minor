@@ -25,22 +25,22 @@ grave_begin =
 grave_violin = \new Voice \relative c''
 {
   \set Staff.instrumentName = #"Violin "
-  \partial 8 d8 |
+  \partial 8 d8\mf |
   \repeat volta 2
   {
     bes'4 ~ bes16 a( g fis) g4 r8 d
     c8.( bes16) a8( bes16 g) fis8( d) r8 d'
     a'8.( c,16) c8( bes16 a) bes8( e) e( f16 g)
     cis,8( f) f g16( a) d,8( g) g4 ~
-    g8 bes16( a) a4 ~ a8 g16( f) f8 e16( d)
+    g8\< bes16( a) a4 ~ a8 g16( f) f8 e16( d)\!
   }
   \alternative
   {
     {
-      d4 cis8.\trill d16 d4. d8
+      d4\f cis8.\trill d16 d4. d8
     }
     {
-      d4 cis8.\trill d16 d4. f8
+      d4 cis8.\trill d16 d4. f8\pp
     }
   }
   f4.( d8) bes16( a) bes4 bes8
@@ -48,8 +48,8 @@ grave_violin = \new Voice \relative c''
   bes8 d16( c) c4 ~ c8 ees16( d) ees8 \tuplet 3/2 {g16( f ees)}
   d4 c8.\trill bes16 bes4 r16 f'( g a)
   bes4. g8 e4.\trill e8
-  a8 g16( fis) g8.( a16) fis8( d) c' c
-  c bes16( a) bes8 c d8. c16( bes a) g fis
+  a8 g16( fis) g8.( a16) fis8(\< d) c' c
+  c bes16(\! a) bes8\< c d8. c16( bes a) g fis\!
   g( a) g a a8.\trill g16 g2
   \bar "|."
 }
@@ -60,26 +60,27 @@ grave_piano_upper = \relative c''
   r8 |
   \repeat volta 2
   {
-    <bes, d g bes>8 <bes d g bes> <c ees fis a c> <c ees fis a c>
+    <bes, d g bes>8\p <bes d g bes> <c ees fis a c> <c ees fis a c>
       <ees g bes ees> <d g bes d> <c g' bes c> <bes g' bes>
     <a ees' g a> <a ees' g a> <a e' g a> <a e' g>
       <a d fis> <a d fis> <d fis a> <a d fis>
     \clef bass
     <a c d> <a c d> ~ <a c ees> <a c d> <bes d> <bes d e> <bes d e> <bes d e>
     <a cis e> <a cis f> <f e' f> <f d' f> <g d' f> <g d' f> <g c f> ~ <g c e!>
-    <g bes e> <g a e'> <f a e'> ~ <f a d> <f bes d> <f bes d> <f b d> <f b d>
+    <g bes e>\< <g a e'> <f a e'> ~ <f a d>
+      <f bes d> <f bes d> <f b d> <f b d>\!
   }
   \alternative
   {
     {
-      <e a d> <e a d> <e bes' cis> <e a cis>
+      <e a d>\f <e a d> <e bes' cis> <e a cis>
         <f a d> <f a d> <fis c' d> <fis c' d>
     }
     {
       <e a d> <e a d> <e bes' cis> <e a cis> <f a d> <f a d> <f a d> r8
     }
   }
-  <f bes d> <f bes d> <f a d> <f a d>
+  <f bes d>\pp <f bes d> <f a d> <f a d>
     <d bes' d> <g bes d> <a, f' bes> <a f' bes>
   \clef treble
   <g' bes ees> <g bes ees> <g c ees> <g c ees>
@@ -89,11 +90,12 @@ grave_piano_upper = \relative c''
   <bes d f bes> <bes d f bes> <c ees g bes> <c ees f a>
     <bes d f bes> <bes d f> <c f> <c f>
   <bes d g> <bes d g> <g d' g> <g d' g> <g e' g> <g e' g> <g d' e g> <g d' e g>
-  <a cis e> <a cis e> <g bes e> <g a e'> <fis a d> <fis a d> <a ees' a> <a d a'>
-  <bes d a'> <bes d g> <bes ees g> <f a f'>16 ees'!
-    <f, bes d>8 <f bes ees> <f bes f'> <a ees' fis>
-  <g d' g> <g c g'> <a ees' g> <a d fis>
-    <g bes d g> <g bes d g> <g bes d g>4\fermata
+  <a cis e> <a cis e> <g bes e> <g a e'>
+    <fis a d>\< <fis a d> <a ees' a> <a d a'>
+  <bes d a'> <bes d g>\! <bes ees g> <f a f'>16 ees'!
+    <f, bes d>8\ff <f bes ees> <f bes f'> <a ees' fis>
+  <g d' g>\f <g c g'> <a ees' g> <a d fis>
+    <g bes d g>\ff <g bes d g> <g bes d g>4\fermata
   \bar "|."
 }
 
