@@ -80,7 +80,7 @@ grave_piano_upper = \relative c''
     }
   }
   <f bes d>\pp <f bes d> <f a d> <f a d>
-    <d bes' d> <g bes d> <f bes> <f bes>
+    <d bes' d> <g bes d> <f bes f'> <f bes f'>
   \clef treble
   <g' bes ees> <g bes ees> <g c ees> <g c ees>
     <f a ees'> <f a f'> <f bes f'> ~ <fis bes fis'>
@@ -119,7 +119,7 @@ grave_piano_lower = \relative c
       a'8 a <a, a'> <a a'> <d d'>8. a'16 d8 r8
     }
   }
-  bes a16 g f8 f g f16 ees <d a'>8 <d a'>
+  bes a16 g f8 f g f16 ees d8 d
   <ees ees'> <d d'> <c c'> <c c'> <f c'> <f c'> <d d'> <d d'>
   <ees ees'> <ees ees'> <e e'> <e e'> <f f'> <fis fis'> <g g'> <c c,>
   <f, f'> <f f'> <f f'> <f f'> bes bes a a
