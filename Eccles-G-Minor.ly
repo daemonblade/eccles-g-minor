@@ -1,6 +1,6 @@
 %
 % Eccles Sonata in G Minor,
-% transribed from J Salmons 1914 arrangment for violin and piano.
+% transribed from J Salmons 1914 arrangement for violin and piano.
 %
 % indents: 2 spaces
 %
@@ -41,6 +41,15 @@ grave_violin = \new Voice \relative c''
       d4 cis8. d16 d4. f8
     }
   }
+  f4. d8 bes16 a bes4 bes8
+  g'8. f16 ees d c bes a8 f bes4
+  bes8 d16 c c4 c8 ees16 d ees8 \tuplet 3/2 {g16 f ees}
+  d4 c8. bes16 bes4 r16 f' g a
+  bes4. g8 e4. e8
+  a8 g16 fis g8. a16 fis8 d c' c
+  c bes16 a bes8 c d8. c16 bes a g fis
+  g a g a a8. g16 g2
+  \bar "|."
 }
 
 grave_piano_upper = \relative c''
@@ -68,6 +77,21 @@ grave_piano_upper = \relative c''
       <e a d> <e a d> <e bes' cis> <e a cis> <f a d> <f a d> <f a d> r8
     }
   }
+  <f bes d> <f bes d> <f a d> <f a d>
+    <d bes' d> <g bes d> <a, f' bes> <a f' bes>
+  \clef treble
+  <g' bes ees> <g bes ees> <g c ees> <g c ees>
+    <f a ees'> <f a f'> <f bes f'> <fis bes fis'>
+  <bes ees a> <bes ees g> <bes c g'> <bes c gis'>
+    <c f bes> <c ees! a> <bes ees gis bes> <bes ees gis bes>
+  <bes d f bes> <bes d f bes> <c ees g bes> <c ees f a>
+    <bes d f bes> <bes d f> <c f> <c f>
+  <bes d g> <bes d g> <g d' g> <g d' g> <g e' g> <g e' g> <g d' e g> <g d' e g>
+  <a cis e> <a cis e> <g bes e> <g a e'> <fis a d> <fis a d> <a ees' a> <a d a'>
+  <bes d a'> <bes d g> <bes ees g> <f a f'>16 ees'!
+    <f, bes d>8 <f bes ees> <f bes f'> <a ees' fis>
+  <g d' g> <g c g'> <a ees' g> <a d fis> <g bes d g> <g bes d g> <g bes d g>4
+  \bar "|."
 }
 
 grave_piano_lower = \relative c
@@ -91,6 +115,15 @@ grave_piano_lower = \relative c
       a'8 a <a, a'> <a a'> <d d'>8. a'16 d8 r8
     }
   }
+  bes a16 g f8 f g f16 ees d8 d
+  <ees ees'> <d d'> <c c'> <c c'> <f c'> <f c'> <d d'> <d d'>
+  <ees ees'> <ees ees'> <e e'> <e e'> <f f'> <fis fis'> <g g'> <c c,>
+  <f, f'> <f f'> <f f'> <f f'> bes bes a a
+  g8 g16 a bes8 bes c c bes bes
+  a a cis cis d d <fis, fis'> <fis fis'>
+  <g g'> <g g'> <ees! ees'!> <d d'>16 <c c'> <bes bes'>8 <c c'> <d d'> <c c'>
+  <bes bes'> <ees ees'> <c c'> <d d'> g8. d16 g,4
+  \bar "|."
 }
 
 \score
