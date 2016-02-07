@@ -160,20 +160,43 @@ courante_begin =
 
 courante_violin = \new Voice \relative c''
 {
-  \set Staff.instrumentName = #"Violin "
-  c2 d4
+  \partial 8 d8\f |
+  \repeat volta 2
+  {
+    <g,, d' bes' g'> d''16 c bes8 g g, g''
+    fis d a fis16 e d8 a''
+    bes a bes fis g c,
+    d2 r8 d
+    g d16 c bes8 g g, g''
+  }
 }
 
 courante_piano_upper = \relative c''
 {
   \clef treble
-  a2 a4
+  r8 |
+  \repeat volta 2
+  {
+    <d, g bes d>4. <d g bes d>8 <d g bes> <ees g a>
+    r16 <d fis> <e g> <fis a> <d fis a>8 d' r16 d, d' a
+    r8 <g bes d> <d g bes> <c fis a> <c g'>4
+    r16 d fis a d fis a d <d, fis a d>4
+    <d, g bes d>4. <d g bes d>8 <d g bes> <ees g a>
+  }
 }
 
 courante_piano_lower = \relative c
 {
   \clef bass
-  a2 a4
+  r8 |
+  \repeat volta 2
+  {
+    <g g'>4. <g g'>8 <bes g'> <c a'>
+    <d a'>2 fis4
+    g4. d8 ees4
+    d4. d,8 d'16 a d,8
+    <g g'>4. <g g'>8 <bes g'> <c a'>
+  }
 }
 
 \score
@@ -183,7 +206,6 @@ courante_piano_lower = \relative c
     \new Staff << \courante_begin \courante_violin >>
     \new PianoStaff
     <<
-      \set PianoStaff.instrumentName = #"Piano "
       \new Staff = "upper" << \courante_begin \courante_piano_upper >>
       \new Staff = "lower" << \courante_begin \courante_piano_lower >>
     >>
