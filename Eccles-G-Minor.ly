@@ -26,11 +26,11 @@ grave_violin = \new Voice \relative c''
   \partial 8 d8 |
   \repeat volta 2
   {
-    bes'4 bes16 a g fis g4 r8 d
-    c8. bes16 a8 bes16 g fis8 d r8 d'
-    a'8. c,16 c8 bes16 a bes8 e e f16 g
-    cis,8 f f g16 a d,8 g g4
-    g8 bes16 a a4 a8 g16 f f8 e16 d
+    bes'4 ~ bes16 a( g fis) g4 r8 d
+    c8.( bes16) a8( bes16 g) fis8( d) r8 d'
+    a'8.( c,16) c8( bes16 a) bes8( e) e( f16 g)
+    cis,8( f) f g16( a) d,8( g) g4 ~
+    g8 bes16( a) a4 ~ a8 g16( f) f8 e16( d)
   }
   \alternative
   {
@@ -41,14 +41,14 @@ grave_violin = \new Voice \relative c''
       d4 cis8. d16 d4. f8
     }
   }
-  f4. d8 bes16 a bes4 bes8
-  g'8. f16 ees d c bes a8 f bes4
-  bes8 d16 c c4 c8 ees16 d ees8 \tuplet 3/2 {g16 f ees}
-  d4 c8. bes16 bes4 r16 f' g a
+  f4.( d8) bes16( a) bes4 bes8
+  g'8.( f16) ees( d c bes a8) f bes4 ~
+  bes8 d16( c) c4 ~ c8 ees16( d) ees8 \tuplet 3/2 {g16( f ees)}
+  d4 c8. bes16 bes4 r16 f'( g a)
   bes4. g8 e4. e8
-  a8 g16 fis g8. a16 fis8 d c' c
-  c bes16 a bes8 c d8. c16 bes a g fis
-  g a g a a8. g16 g2
+  a8 g16( fis) g8.( a16) fis8( d) c' c
+  c bes16( a) bes8 c d8. c16( bes a) g fis
+  g( a) g a a8. g16 g2
   \bar "|."
 }
 
