@@ -15,6 +15,7 @@
 
 grave_begin =
 {
+  \tempo "Grave" 8 = 69
   \time 4/4
   \key g \minor
 }
@@ -25,6 +26,9 @@ grave_violin = \new Voice \relative c''
   \partial 8 d8 |
   bes'4 bes16 a g fis g4 r8 d
   c8. bes16 a8 bes16 g fis8 d r8 d'
+  a'8. c,16 c8 bes16 a bes8 e e f16 g
+  cis,8 f f g16 a d,8 g g4
+  g8 bes16 a a4 a8 g16 f f8 e16 d
 }
 
 grave_piano_upper = \relative c''
@@ -35,6 +39,10 @@ grave_piano_upper = \relative c''
     <ees g bes ees> <d g bes d> <c g' bes c> <bes g' bes>
   <a ees' g a> <a ees' g a> <a e' g a> <a e' g>
     <a d fis> <a d fis> <d fis a> <a d fis>
+  \clef bass
+  <a c d> <a c d> <a c ees> <a c d> <bes d> <bes d e> <bes d e> <bes d e>
+  <a cis e> <a cis f> <f e' f> <f d' f> <g d' f> <g d' f> <g c f> <g c e!>
+  <g bes e> <g a e'> <f a e'> <f a d> <f bes d> <f bes d> <f b d> <f b d>
 }
 
 grave_piano_lower = \relative c
@@ -43,6 +51,9 @@ grave_piano_lower = \relative c
   r8 |
   <g g'>8 <g g'> <g g'> <g g'> <g g'> g a <bes, bes'>
   <c c'> <c c'> <cis cis'> <cis cis'> <d d'>8. a'16 d,4
+  fis8 fis fis fis g g' g, g
+  a8 a bes bes b b c c
+  <cis, cis'> <cis cis'> <d d'> f <g, g'> <g g'> <gis gis'> <gis gis'>
 }
 
 \score
@@ -65,25 +76,26 @@ grave_piano_lower = \relative c
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-adagio_begin =
+courante_begin =
 {
+  \tempo "Allegro con spirito" 4 = 104
   \time 3/4
   \key g \minor
 }
 
-adagio_violin = \new Voice \relative c''
+courante_violin = \new Voice \relative c''
 {
   \set Staff.instrumentName = #"Violin "
   c2 d4
 }
 
-adagio_piano_upper = \relative c''
+courante_piano_upper = \relative c''
 {
   \clef treble
   a2 a4
 }
 
-adagio_piano_lower = \relative c
+courante_piano_lower = \relative c
 {
   \clef bass
   a2 a4
@@ -93,12 +105,12 @@ adagio_piano_lower = \relative c
 {
   \new StaffGroup
   <<
-    \new Staff << \adagio_begin \adagio_violin >>
+    \new Staff << \courante_begin \courante_violin >>
     \new PianoStaff
     <<
       \set PianoStaff.instrumentName = #"Piano "
-      \new Staff = "upper" << \adagio_begin \adagio_piano_upper >>
-      \new Staff = "lower" << \adagio_begin \adagio_piano_lower >>
+      \new Staff = "upper" << \courante_begin \courante_piano_upper >>
+      \new Staff = "lower" << \courante_begin \courante_piano_lower >>
     >>
   >>
   \header
@@ -111,6 +123,7 @@ adagio_piano_lower = \relative c
 
 adagio_begin =
 {
+  \tempo "Adagio" 2 = 42
   \time 3/4
   \key g \minor
 }
@@ -155,6 +168,7 @@ adagio_piano_lower = \relative c
 
 vivace_begin =
 {
+  \tempo "Vivace" 4. = 76
   \time 3/4
   \key g \minor
 }
