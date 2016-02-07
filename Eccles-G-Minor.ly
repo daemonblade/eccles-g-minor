@@ -24,36 +24,73 @@ grave_violin = \new Voice \relative c''
 {
   \set Staff.instrumentName = #"Violin "
   \partial 8 d8 |
-  bes'4 bes16 a g fis g4 r8 d
-  c8. bes16 a8 bes16 g fis8 d r8 d'
-  a'8. c,16 c8 bes16 a bes8 e e f16 g
-  cis,8 f f g16 a d,8 g g4
-  g8 bes16 a a4 a8 g16 f f8 e16 d
+  \repeat volta 2
+  {
+    bes'4 bes16 a g fis g4 r8 d
+    c8. bes16 a8 bes16 g fis8 d r8 d'
+    a'8. c,16 c8 bes16 a bes8 e e f16 g
+    cis,8 f f g16 a d,8 g g4
+    g8 bes16 a a4 a8 g16 f f8 e16 d
+  }
+  \alternative
+  {
+    {
+      d4 cis8. d16 d4. d8
+    }
+    {
+      d4 cis8. d16 d4. f8
+    }
+  }
 }
 
 grave_piano_upper = \relative c''
 {
   \clef treble
   r8 |
-  <bes, d g bes>8 <bes d g bes> <c ees fis a c> <c ees fis a c>
-    <ees g bes ees> <d g bes d> <c g' bes c> <bes g' bes>
-  <a ees' g a> <a ees' g a> <a e' g a> <a e' g>
-    <a d fis> <a d fis> <d fis a> <a d fis>
-  \clef bass
-  <a c d> <a c d> <a c ees> <a c d> <bes d> <bes d e> <bes d e> <bes d e>
-  <a cis e> <a cis f> <f e' f> <f d' f> <g d' f> <g d' f> <g c f> <g c e!>
-  <g bes e> <g a e'> <f a e'> <f a d> <f bes d> <f bes d> <f b d> <f b d>
+  \repeat volta 2
+  {
+    <bes, d g bes>8 <bes d g bes> <c ees fis a c> <c ees fis a c>
+      <ees g bes ees> <d g bes d> <c g' bes c> <bes g' bes>
+    <a ees' g a> <a ees' g a> <a e' g a> <a e' g>
+      <a d fis> <a d fis> <d fis a> <a d fis>
+    \clef bass
+    <a c d> <a c d> <a c ees> <a c d> <bes d> <bes d e> <bes d e> <bes d e>
+    <a cis e> <a cis f> <f e' f> <f d' f> <g d' f> <g d' f> <g c f> <g c e!>
+    <g bes e> <g a e'> <f a e'> <f a d> <f bes d> <f bes d> <f b d> <f b d>
+  }
+  \alternative
+  {
+    {
+      <e a d> <e a d> <e bes' cis> <e a cis>
+        <f a d> <f a d> <fis c' d> <fis c' d>
+    }
+    {
+      <e a d> <e a d> <e bes' cis> <e a cis> <f a d> <f a d> <f a d> r8
+    }
+  }
 }
 
 grave_piano_lower = \relative c
 {
   \clef bass
   r8 |
-  <g g'>8 <g g'> <g g'> <g g'> <g g'> g a <bes, bes'>
-  <c c'> <c c'> <cis cis'> <cis cis'> <d d'>8. a'16 d,4
-  fis8 fis fis fis g g' g, g
-  a8 a bes bes b b c c
-  <cis, cis'> <cis cis'> <d d'> f <g, g'> <g g'> <gis gis'> <gis gis'>
+  \repeat volta 2
+  {
+    <g g'>8 <g g'> <g g'> <g g'> <g g'> g a <bes, bes'>
+    <c c'> <c c'> <cis cis'> <cis cis'> <d d'>8. a'16 d,4
+    fis8 fis fis fis g g' g, g
+    a8 a bes bes b b c c
+    <cis, cis'> <cis cis'> <d d'> f <g, g'> <g g'> <gis gis'> <gis gis'>
+  }
+  \alternative
+  {
+    {
+      <a a'> <a a'> <a a'> <a a'> <d d'>8. a'16 d,4
+    }
+    {
+      a'8 a <a, a'> <a a'> <d d'>8. a'16 d8 r8
+    }
+  }
 }
 
 \score
