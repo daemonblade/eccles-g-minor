@@ -131,24 +131,6 @@ grave_piano_lower = \relative c
   \bar "|."
 }
 
-\score
-{
-  \new StaffGroup
-  <<
-    \new Staff << \grave_begin \grave_violin >>
-    \new PianoStaff
-    <<
-      \set PianoStaff.instrumentName = #"Piano "
-      \new Staff = "upper" << \grave_begin \grave_piano_upper >>
-      \new Staff = "lower" << \grave_begin \grave_piano_lower >>
-    >>
-  >>
-  \header
-  {
-    piece = "Grave"
-  }
-}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 courante_begin =
@@ -298,23 +280,6 @@ courante_piano_lower = \relative c
   }
 }
 
-\score
-{
-  \new StaffGroup
-  <<
-    \new Staff << \courante_begin \courante_violin >>
-    \new PianoStaff
-    <<
-      \new Staff = "upper" << \courante_begin \courante_piano_upper >>
-      \new Staff = "lower" << \courante_begin \courante_piano_lower >>
-    >>
-  >>
-  \header
-  {
-    piece = "Courante"
-  }
-}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 adagio_begin =
@@ -340,24 +305,6 @@ adagio_piano_lower = \relative c
 {
   \clef bass
   a2 a4
-}
-
-\score
-{
-  \new StaffGroup
-  <<
-    \new Staff << \adagio_begin \adagio_violin >>
-    \new PianoStaff
-    <<
-      \set PianoStaff.instrumentName = #"Piano "
-      \new Staff = "upper" << \adagio_begin \adagio_piano_upper >>
-      \new Staff = "lower" << \adagio_begin \adagio_piano_lower >>
-    >>
-  >>
-  \header
-  {
-    piece = "Adagio"
-  }
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -387,20 +334,122 @@ vivace_piano_lower = \relative c
   a2 a4
 }
 
-\score
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Book Generation
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\book
 {
-  \new StaffGroup
-  <<
-    \new Staff << \vivace_begin \vivace_violin >>
-    \new PianoStaff
-    <<
-      \set PianoStaff.instrumentName = #"Piano "
-      \new Staff = "upper" << \vivace_begin \vivace_piano_upper >>
-      \new Staff = "lower" << \vivace_begin \vivace_piano_lower >>
-    >>
-  >>
-  \header
+  \bookOutputSuffix "All"
+  \score
   {
-    piece = "Vivace"
+    \new StaffGroup
+    <<
+      \new Staff << \grave_begin \grave_violin >>
+      \new PianoStaff
+      <<
+        \set PianoStaff.instrumentName = #"Piano "
+        \new Staff = "upper" << \grave_begin \grave_piano_upper >>
+        \new Staff = "lower" << \grave_begin \grave_piano_lower >>
+      >>
+    >>
+    \header
+    {
+      piece = "Grave"
+    }
+  }
+  
+  \score
+  {
+    \new StaffGroup
+    <<
+      \new Staff << \courante_begin \courante_violin >>
+      \new PianoStaff
+      <<
+        \new Staff = "upper" << \courante_begin \courante_piano_upper >>
+        \new Staff = "lower" << \courante_begin \courante_piano_lower >>
+      >>
+    >>
+    \header
+    {
+      piece = "Courante"
+    }
+  }
+  
+  \score
+  {
+    \new StaffGroup
+    <<
+      \new Staff << \adagio_begin \adagio_violin >>
+      \new PianoStaff
+      <<
+        \set PianoStaff.instrumentName = #"Piano "
+        \new Staff = "upper" << \adagio_begin \adagio_piano_upper >>
+        \new Staff = "lower" << \adagio_begin \adagio_piano_lower >>
+      >>
+    >>
+    \header
+    {
+      piece = "Adagio"
+    }
+  }
+  
+  \score
+  {
+    \new StaffGroup
+    <<
+      \new Staff << \vivace_begin \vivace_violin >>
+      \new PianoStaff
+      <<
+        \set PianoStaff.instrumentName = #"Piano "
+        \new Staff = "upper" << \vivace_begin \vivace_piano_upper >>
+        \new Staff = "lower" << \vivace_begin \vivace_piano_lower >>
+      >>
+    >>
+    \header
+    {
+      piece = "Vivace"
+    }
+  }
+}
+
+\book
+{
+  \bookOutputSuffix "Violin"
+  \score
+  {
+    \new Staff << \grave_begin \grave_violin >>
+    \header
+    {
+      piece = "Grave"
+    }
+  }
+  
+  \score
+  {
+    \new Staff << \courante_begin \courante_violin >>
+    \header
+    {
+      piece = "Courante"
+    }
+  }
+  
+  \score
+  {
+    \new Staff << \adagio_begin \adagio_violin >>
+    \header
+    {
+      piece = "Adagio"
+    }
+  }
+  
+  \score
+  {
+    \new Staff << \vivace_begin \vivace_violin >>
+    \header
+    {
+      piece = "Vivace"
+    }
   }
 }
