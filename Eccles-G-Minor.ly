@@ -35,20 +35,20 @@ grave_violin = \new Voice \relative c''
   \alternative
   {
     {
-      d4 cis8. d16 d4. d8
+      d4 cis8.\trill d16 d4. d8
     }
     {
-      d4 cis8. d16 d4. f8
+      d4 cis8.\trill d16 d4. f8
     }
   }
   f4.( d8) bes16( a) bes4 bes8
   g'8.( f16) ees( d c bes a8) f bes4 ~
   bes8 d16( c) c4 ~ c8 ees16( d) ees8 \tuplet 3/2 {g16( f ees)}
-  d4 c8. bes16 bes4 r16 f'( g a)
-  bes4. g8 e4. e8
+  d4 c8.\trill bes16 bes4 r16 f'( g a)
+  bes4. g8 e4.\trill e8
   a8 g16( fis) g8.( a16) fis8( d) c' c
   c bes16( a) bes8 c d8. c16( bes a) g fis
-  g( a) g a a8. g16 g2
+  g( a) g a a8.\trill g16 g2
   \bar "|."
 }
 
@@ -90,7 +90,8 @@ grave_piano_upper = \relative c''
   <a cis e> <a cis e> <g bes e> <g a e'> <fis a d> <fis a d> <a ees' a> <a d a'>
   <bes d a'> <bes d g> <bes ees g> <f a f'>16 ees'!
     <f, bes d>8 <f bes ees> <f bes f'> <a ees' fis>
-  <g d' g> <g c g'> <a ees' g> <a d fis> <g bes d g> <g bes d g> <g bes d g>4
+  <g d' g> <g c g'> <a ees' g> <a d fis>
+    <g bes d g> <g bes d g> <g bes d g>4\fermata
   \bar "|."
 }
 
@@ -122,7 +123,7 @@ grave_piano_lower = \relative c
   g8 g16 a bes8 bes c c bes bes
   a a cis cis d d <fis, fis'> <fis fis'>
   <g g'> <g g'> <ees! ees'!> <d d'>16 <c c'> <bes bes'>8 <c c'> <d d'> <c c'>
-  <bes bes'> <ees ees'> <c c'> <d d'> g8. d16 g,4
+  <bes bes'> <ees ees'> <c c'> <d d'> g8. d16 g,4\fermata
   \bar "|."
 }
 
