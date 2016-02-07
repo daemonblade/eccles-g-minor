@@ -11,7 +11,7 @@
   title = "Sonata in G Minor"
   composer = "Henri Eccles (1670-1742)"
   arranger = "Joseph Salmon (1864-1943)"
-  tagline = ##f
+  tagline = "https://github.com/daemonblade/eccles-g-minor"
   copyright = \markup { \char ##x00A9 "2016 Jonathan Chen" }
 }
 
@@ -168,6 +168,15 @@ courante_violin = \new Voice \relative c''
     bes a bes fis g c,
     d2 r8 d
     g d16 c bes8 g g, g''
+    fis d a fis16 e d8 a''
+    bes a bes fis g a,
+    d2 r4
+    <g,, d' b' g'>8 d''16 c bes c d bes g'8 d
+    ees c16 d ees8 c g c
+    <a f'> c16 bes a bes c a f'8 c
+    d bes16 c d8 bes f bes
+    <a, fis' d'> a'16 g fis8 a d a
+    bes a g g' d16 c bes a
   }
 }
 
@@ -182,6 +191,15 @@ courante_piano_upper = \relative c''
     r8 <g bes d> <d g bes> <c fis a> <c g'>4
     r16 d fis a d fis a d <d, fis a d>4
     <d, g bes d>4. <d g bes d>8 <d g bes> <ees g a>
+    r16 <d fis> <e g> <fis a> <d fis a>8 d' r16 d, d' a
+    r8 <g bes d> <d g bes> <c fis a> <c g'>4
+    r16 d fis a d fis a d <d, fis a d>4
+    <d, g>8 <d g> <f g> <d g> <f g> <d g>
+    <ees g> <c ees> <ees g> <c ees> <ees g> <c ees>
+    <ees f> <c ees> <ees f> <c ees> <ees f> <c ees>
+    <d f> <bes d> <d f> <bes d> <d f> <bes d>
+    <d fis> <a d> <d fis> <a d> <d fis a> <a d fis>
+    r d g d r <a d a'>
   }
 }
 
@@ -196,6 +214,15 @@ courante_piano_lower = \relative c
     g4. d8 ees4
     d4. d,8 d'16 a d,8
     <g g'>4. <g g'>8 <bes g'> <c a'>
+    <d a'>2 fis4
+    g4. d8 e4
+    d4. a8 d16 a d,8
+    b' b' d b d b
+    c g c g c g
+    <a c> <f a> <a c> <f a> <a c> <f a>
+    bes f bes f bes f
+    a fis a fis d d
+    <g, g'>2 <fis fis'>4
   }
 }
 
