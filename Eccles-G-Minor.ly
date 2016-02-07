@@ -190,6 +190,13 @@ courante_violin = \new Voice \relative c''
       d,2 r8 f'!
     }
   }
+  \repeat volta 2
+  {
+    <d, bes' f'> d'16 c bes8 f d bes'
+    c c,16 bes a8 c' f, f'
+    <f, d'> c' bes f' d, f'
+    <ees, bes' g'> f' g d ees d
+  }
 }
 
 courante_piano_upper = \relative c''
@@ -231,6 +238,22 @@ courante_piano_upper = \relative c''
       <fis a>16 d' cis d a8 fis d r
     }
   }
+  \repeat volta 2
+  {
+    \clef treble
+    <f bes d>4. <d' f!>8 <d f> bes'
+    <c, f a>4 <a' c>16 <g bes> <f a>8 <a, f'> <c a'>
+    <d aes'>4. <d aes'>8 <d aes'>16 g f8
+    <<
+      {
+        g4. f8 g4
+      }
+      \\
+      {
+        <bes, f'>4 es8 bes ees d
+      }
+    >>
+  }
 }
 
 courante_piano_lower = \relative c
@@ -265,6 +288,13 @@ courante_piano_lower = \relative c
     {
       <d a'>16 d' cis d a8 fis d r
     }
+  }
+  \repeat volta 2
+  {
+    <bes bes'>2 <bes' f'!>4
+    f' f,2
+    <bes f'> <bes f'>4
+    ees4. d8 c bes
   }
 }
 
