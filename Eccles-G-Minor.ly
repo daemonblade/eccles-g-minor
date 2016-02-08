@@ -134,7 +134,7 @@ grave_piano_lower = \relative c
 
 courante_begin =
 {
-  \tempo "Allegro con spirito" 4 = 104
+  \tempo "Courante. Allegro con spirito" 4 = 104
   \time 3/4
   \key g \minor
 }
@@ -146,20 +146,20 @@ courante_violin = \new Voice \relative c''
   {
     <g,, d' bes' g'> d''16 c bes8 g g, g''
     fis d a fis16 e d8 a''
-    bes a bes fis g c,
-    d2 r8 d
-    g d16 c bes8 g g, g''
-    fis d a fis16 e d8 a''
-    bes a bes fis g a,
+    bes a( bes) fis g( c,)
+    d2 r8 d(
+    g) d16( c) bes8 g g, g''
+    fis d a fis16( e) d8 a''
+    bes a( bes) fis g( c,)
     d2 r4
-    <g,, d' b' g'>8 d''16 c bes c d bes g'8 d
-    ees c16 d ees8 c g c
-    <a f'> c16 bes a bes c a f'8 c
-    d bes16 c d8 bes f bes
-    <a, fis' d'> a'16 g fis8 a d a
+    <g,, d' b' g'>8\fz d''16( c) bes c d bes g'8 d
+    ees c16( d) ees8 c g c
+    <a f'>\fz c16( bes) a bes c a f'8 c
+    d bes16( c) d8 bes f bes
+    <a, fis' d'>\fz a'16( g) fis8 a d a
     bes a g g' d16 c bes a
-    bes a g8 c4. d8
-    d fis16 g a8 fis d fis
+    bes( a) g8 c4.\trill d8
+    d\f fis16 g a8 fis d fis
     a,16 d cis d a8 d fis, a
   }
   \alternative
@@ -173,28 +173,28 @@ courante_violin = \new Voice \relative c''
   }
   \repeat volta 2
   {
-    <d, bes' f'> d'16 c bes8 f d bes'
+    <d, bes' f'>\f d'16 c bes8 f d bes'
     c c,16 bes a8 c' f, f'
     <f, d'> c' bes f' d, f'
-    <ees, bes' g'> f' g d ees d
-    c16 bes a bes c bes a g f4
-    cis'16 d e8 a,16 b cis8 g16 cis e8
+    <ees, bes' g'> f'( g) d ees( d)
+    c16( bes) a bes c( bes) a g f4
+    cis'16\f d e8 a,16 b cis8 g16 cis e8
     f4. bes8 a g
-    f16 e f g e4. d8
-    d4. d8 ees g16 f
-    g8 aes d,4. c8
-    c4. d8 c d
-    ees a, c f, ees' c
-    d c bes d bes16 c d8
+    f16( e) f g e4.(\trill d8)
+    d4. d8( ees) g16 f
+    g8( aes) d,4.(\trill c8)
+    c4. d8(\p c d)
+    ees a,( c) f, ees'( c)
+    d c bes d bes16( c) d8
     c fis, a d, d'16 c bes a
-    bes8 a g bes16 a g8 bes
-    a e g cis, g' a,
-    fis' e d d'16 c bes c d bes
-    ees!8 c aes c ees g
-    fis4. fis8 g bes,
-    a g d a' g' fis
-    <g,, d' bes' g'> f''16 ees d c bes a bes a g fis
-    g8 f!16 ees! d ees d c bes c bes a
+    bes8 a g bes16( a) g8 bes
+    a e( g) cis,\< g'( a,)
+    fis' e\! d d'16( c) bes\< c d bes\!
+    ees!8(\f c) aes c ees( g)
+    fis4. fis8( g) bes,(
+    a) g( d) a' g'( fis)
+    <g,, d' bes' g'> f''16( ees) d c bes a bes a g fis
+    g8 f!16(\< ees!) d ees d c bes\! c bes a
   }
   \alternative
   {
@@ -205,7 +205,7 @@ courante_violin = \new Voice \relative c''
       g,,2.
     }
   }
-  g4 <d bes' g'>8 r8 r4
+  g4( <d' bes' g'>8) r8 r4
   \bar "|."
 }
 
@@ -524,10 +524,6 @@ vivace_piano_lower = \relative c
         \new Staff = "lower" << \grave_begin \grave_piano_lower >>
       >>
     >>
-    \header
-    {
-      piece = "Grave"
-    }
   }
   
   \score
@@ -541,10 +537,6 @@ vivace_piano_lower = \relative c
         \new Staff = "lower" << \courante_begin \courante_piano_lower >>
       >>
     >>
-    \header
-    {
-      piece = "Courante"
-    }
   }
   
   \score
@@ -559,10 +551,6 @@ vivace_piano_lower = \relative c
         \new Staff = "lower" << \adagio_begin \adagio_piano_lower >>
       >>
     >>
-    \header
-    {
-      piece = "Adagio"
-    }
   }
   
   \score
@@ -577,10 +565,6 @@ vivace_piano_lower = \relative c
         \new Staff = "lower" << \vivace_begin \vivace_piano_lower >>
       >>
     >>
-    \header
-    {
-      piece = "Vivace"
-    }
   }
 }
 
@@ -590,36 +574,20 @@ vivace_piano_lower = \relative c
   \score
   {
     \new Staff << \grave_begin \grave_violin >>
-    \header
-    {
-      piece = "Grave"
-    }
   }
   
   \score
   {
     \new Staff << \courante_begin \courante_violin >>
-    \header
-    {
-      piece = "Courante"
-    }
   }
   
   \score
   {
     \new Staff << \adagio_begin \adagio_violin >>
-    \header
-    {
-      piece = "Adagio"
-    }
   }
   
   \score
   {
     \new Staff << \vivace_begin \vivace_violin >>
-    \header
-    {
-      piece = "Vivace"
-    }
   }
 }
