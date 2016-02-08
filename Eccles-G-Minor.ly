@@ -1,8 +1,10 @@
 %
-% Eccles Sonata in G Minor,
-% transribed from J Salmons 1914 arrangement for violin and piano.
+% Eccles Sonata in G Minor.
+% Transribed from J Salmon's 1914 arrangement for violin and piano.
 %
-% indents: 2 spaces
+% copyright: 2016 Jonathan Chen
+% source: https://github.com/daemonblade/eccles-g-minor
+% indent: 2 spaces
 %
 \version "2.18.2"
 
