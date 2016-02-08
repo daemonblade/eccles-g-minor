@@ -215,26 +215,26 @@ courante_piano_upper = \relative c''
   r8 |
   \repeat volta 2
   {
-    <d, g bes d>4. <d g bes d>8 <d g bes> <ees g a>
-    r16 <d fis> <e g> <fis a> <d fis a>8 d' r16 d, d' a
-    r8 <g bes d> <d g bes> <c fis a> <c g'>4
-    r16 d fis a d fis a d <d, fis a d>4
-    <d, g bes d>4. <d g bes d>8 <d g bes> <ees g a>
-    r16 <d fis> <e g> <fis a> <d fis a>8 d' r16 d, d' a
-    r8 <g bes d> <d g bes> <c fis a> <c g'>4
-    r16 d fis a d fis a d <d, fis a d>4
-    <d, g>8 <d g> <f g> <d g> <f g> <d g>
-    <ees g> <c ees> <ees g> <c ees> <ees g> <c ees>
-    <ees f> <c ees> <ees f> <c ees> <ees f> <c ees>
-    <d f> <bes d> <d f> <bes d> <d f> <bes d>
-    <d fis> <a d> <d fis> <a d> <d fis a> <a d fis>
+    <d, g bes d>4.\f <d g bes d>8-. <d g bes>-. <ees g a>-.
+    r16 <d fis> <e g> <fis a> <d fis a>8( d') r16 d, d' a
+    r8 <g bes d>( <d g bes>) <c fis a> <c g'>4
+    r16 d fis\< a d fis a d\! <d, fis a d>4\f
+    <d, g bes d>4.\p <d g bes d>8-. <d g bes>-. <ees g a>-.
+    r16 <d fis> <e g> <fis a> <d fis a>8( d') r16 d, d' a
+    r8 <g bes d>( <d g bes>) <c fis a> <c g'>4
+    r16 d fis\< a d fis a d\! <d, fis a d>4\f
+    <d, g>8-.\fz <d g>-. <f g>-. <d g>-. <f g>-. <d g>-.
+    <ees g>-. <c ees>-. <ees g>-. <c ees>-. <ees g>-. <c ees>-.
+    <ees f>\fz-. <c ees>-. <ees f>-. <c ees>-. <ees f>-. <c ees>-.
+    <d f>-. <bes d>-. <d f>-. <bes d>-. <d f>-. <bes d>-.
+    <d fis>\fz-. <a d>-. <d fis>-. <a d>-. <d fis a>-. <a d fis>-.
     r <<
-        { d8 g d }
+        { d8([ g) d] }
         \\
         { bes4 bes8 }
       >> r <a d a'>
-    <bes d>4 a16 c ees g a c ees g
-    <a, d fis>4 <a d> r
+    <bes d>4 a16\< c ees g a c ees g\!
+    <a, d fis>4\f <a d> r
     <a, d fis> <a d> r
   }
   \alternative
@@ -251,9 +251,9 @@ courante_piano_upper = \relative c''
   \repeat volta 2
   {
     \clef treble
-    <f bes d>4. <d' f!>8 <d f> bes'
-    <c, f a>4 <a' c>16 <g bes> <f a>8 <a, f'> <c a'>
-    <d aes'>4. <d aes'>8 <d aes'>16 g f8
+    <f bes d>4. <d' f!>8 <d f>( bes')
+    <c, f a>4 <a' c>16( <g bes> <f a>8) <a, f'>-. <c a'>-.
+    <d aes'>4. <d aes'>8 <d aes'>16( g) f8-.
     <<
       {
         g4. f8 g4
@@ -262,13 +262,13 @@ courante_piano_upper = \relative c''
         <bes, f'>4 es8 bes ees d
       }
     >>
-    <c f a>4 <a c f> <a' c>16 <g bes> <f a>8
+    <c f a>4 <a c f> <a' c>16( <g bes> <f a>8)
     <<
       {
         r8 <cis g'>16 <cis g'> b'8\rest <e, g>16 <e g>
       } \\
       {
-        <a, a'>2
+        <a, a'>2->
       }
     >> r8 <c g' a>16 <c g' a>
     <d f a>4. <bes d bes'>8 <a d a'> <a cis a'>
@@ -278,12 +278,12 @@ courante_piano_upper = \relative c''
           <a a'>2
         } \\
         {
-          d8 cis16 b cis4
+          d8( cis16 b) cis4
         }
       >>
     <<
       {
-        a'4 g <c, g'>8 <b! g'>
+        a'4( g) <c, g'>8 ~ <b! g'>
       } \\
       {
         <a d>8 g b16 c d8 g,8 g
@@ -294,25 +294,25 @@ courante_piano_upper = \relative c''
         g'4 <g, d' g>2
       } \\
       {
-        <g c>8 <aes c> c4 b
+        <g c>8 <aes c> c4( b)
       }
     >>
     <g c g'>4. r8 r4
-    r16 c ees c f8 r8
+    r16\p c ees c f8 r8
     <<
       {
         a4
       } \\
       {
-        c,8 ees
+        c,8( ees)
       }
     >>
     <<
       {
-        f4 f8 bes bes d
+        f4 f8( bes) bes( d)
       } \\
       {
-        d, ees d4 f4
+        d,( ees) d4 f4
       }
     >>
     <<
@@ -323,10 +323,10 @@ courante_piano_upper = \relative c''
         fis,4 a d8
       }
     >> r8
-    r16 bes, d bes  g'8 <d g> <g bes> r8
+    r16 bes,( d bes)  g'8 <d g> <g bes> r8
     <<
       {
-        e[ a] a[ cis]
+        e([ a)] a([ cis)]
       } \\
       {
         a,[ cis] cis[ e]
@@ -337,10 +337,10 @@ courante_piano_upper = \relative c''
         d'2 d4
       } \\
       {
-        <d, fis>8 <e g> <fis a>4 <d g bes>
+        <d, fis>8( <e g> <fis a>4) <d g bes>
       }
     >>
-    r8
+    r8\f
       <<
         {
           ees'16 des c bes aes8
@@ -349,7 +349,7 @@ courante_piano_upper = \relative c''
           <ees aes>8[ <ees aes> ees]
         }
       >> r8 <ees g>
-    <d fis>8 <d fis>16 <e g> <fis a>8 <d fis d'> <d g d'>4
+    <d fis>8 <d fis>16(\f <e g> <fis a>8) <d fis d'>-. <d g d'>4
     <ees g a c>
       <<
         {
@@ -365,13 +365,13 @@ courante_piano_upper = \relative c''
   \alternative
   {
     {
-      <bes, d g>8 d16 c bes8 d <g, g'>8 r8
+      <bes, d g>8\f d16 c bes8 d <g, g'>8 r8
     }
     {
-      <bes d g>8 f'16 ees d ees d c bes c bes a
+      <bes d g>8\f f'16\< ees d ees d c bes\! c bes a
     }
   }
-  g4 <bes d g>8 r8 r4
+  g4( <bes d g>8) r8 r4
   \bar "|."
 }
 
