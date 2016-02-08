@@ -186,6 +186,9 @@ courante_violin = \new Voice \relative c''
     c4. d8 c d
     ees a, c f, ees' c
     d c bes d bes16 c d8
+    c fis, a d, d'16 c bes a
+    bes8 a g bes16 a g8 bes
+    a e g cis, g' a,
   }
 }
 
@@ -237,8 +240,7 @@ courante_piano_upper = \relative c''
     <<
       {
         g4. f8 g4
-      }
-      \\
+      } \\
       {
         <bes, f'>4 es8 bes ees d
       }
@@ -247,8 +249,7 @@ courante_piano_upper = \relative c''
     <<
       {
         r8 <cis g'>16 <cis g'> b'8\rest <e, g>16 <e g>
-      }
-      \\
+      } \\
       {
         <a, a'>2
       }
@@ -258,8 +259,7 @@ courante_piano_upper = \relative c''
       <<
         {
           <a a'>2
-        }
-        \\
+        } \\
         {
           d8 cis16 b cis4
         }
@@ -267,8 +267,7 @@ courante_piano_upper = \relative c''
     <<
       {
         a'4 g <c, g'>8 <b! g'>
-      }
-      \\
+      } \\
       {
         <a d>8 g b16 c d8 g,8 g
       }
@@ -276,8 +275,7 @@ courante_piano_upper = \relative c''
     <<
       {
         g'4 <g, d' g>2
-      }
-      \\
+      } \\
       {
         <g c>8 <aes c> c4 b
       }
@@ -287,8 +285,7 @@ courante_piano_upper = \relative c''
     <<
       {
         a4
-      }
-      \\
+      } \\
       {
         c,8 ees
       }
@@ -296,12 +293,28 @@ courante_piano_upper = \relative c''
     <<
       {
         f4 f8 bes bes d
-      }
-      \\
+      } \\
       {
         d, ees d4 f4
       }
     >>
+    <<
+      {
+        a8( d) d fis fis
+      } \\
+      {
+        fis,4 a d8
+      }
+    >> r8
+    r16 bes, d bes  g'8 <d g> <g bes> r8
+    <<
+      {
+        e a a cis
+      } \\
+      {
+        a, cis cis e
+      }
+    >> <e cis'> r
   }
 }
 
@@ -353,6 +366,9 @@ courante_piano_lower = \relative c
     <c ees>4. r8 r4
     <a a'>4. r8 <f f'>4
     <bes bes'>4. r8 d'4
+    d fis a8 r8
+    <g,, g'>2 r4
+    cis a a'8 r8
   }
 }
 
