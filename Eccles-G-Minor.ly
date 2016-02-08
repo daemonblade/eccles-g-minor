@@ -300,7 +300,7 @@ courante_piano_upper = \relative c''
     >>
     <<
       {
-        a8( d) d fis fis
+        a8[( d)] d[ fis] fis
       } \\
       {
         fis,4 a d8
@@ -309,10 +309,10 @@ courante_piano_upper = \relative c''
     r16 bes, d bes  g'8 <d g> <g bes> r8
     <<
       {
-        e a a cis
+        e[ a] a[ cis]
       } \\
       {
-        a, cis cis e
+        a,[ cis] cis[ e]
       }
     >> <e cis'> r
   }
