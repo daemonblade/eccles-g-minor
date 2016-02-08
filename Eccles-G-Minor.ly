@@ -451,26 +451,32 @@ courante_piano_lower = \relative c
 adagio_begin =
 {
   \tempo "Adagio" 2 = 42
-  \time 3/4
+  \time 3/2
   \key g \minor
 }
 
 adagio_violin = \new Voice \relative c''
 {
-  \set Staff.instrumentName = #"Violin "
-  c2 d4
+  r2 r d\mf
 }
 
 adagio_piano_upper = \relative c''
 {
   \clef treble
-  a2 a4
+  s2 s <g, bes d>4 <g bes d>
 }
 
 adagio_piano_lower = \relative c
 {
   \clef bass
-  a2 a4
+  <<
+    {
+      <bes d g>4 <bes d g> <d g bes> <d g bes> s2
+    } \\
+    {
+      <g,, g'>1.
+    }
+  >>
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -478,26 +484,25 @@ adagio_piano_lower = \relative c
 vivace_begin =
 {
   \tempo "Vivace" 4. = 76
-  \time 3/4
+  \time 3/8
   \key g \minor
 }
 
 vivace_violin = \new Voice \relative c''
 {
-  \set Staff.instrumentName = #"Violin "
-  c2 d4
+  g16(\p d') d d d c
 }
 
 vivace_piano_upper = \relative c''
 {
   \clef treble
-  a2 a4
+  <bes, d>8-. <a d>4->
 }
 
 vivace_piano_lower = \relative c
 {
   \clef bass
-  a2 a4
+  g'8-. fis-. d-.
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -546,7 +551,6 @@ vivace_piano_lower = \relative c
       \new Staff << \adagio_begin \adagio_violin >>
       \new PianoStaff
       <<
-        \set PianoStaff.instrumentName = #"Piano "
         \new Staff = "upper" << \adagio_begin \adagio_piano_upper >>
         \new Staff = "lower" << \adagio_begin \adagio_piano_lower >>
       >>
@@ -560,7 +564,6 @@ vivace_piano_lower = \relative c
       \new Staff << \vivace_begin \vivace_violin >>
       \new PianoStaff
       <<
-        \set PianoStaff.instrumentName = #"Piano "
         \new Staff = "upper" << \vivace_begin \vivace_piano_upper >>
         \new Staff = "lower" << \vivace_begin \vivace_piano_lower >>
       >>
@@ -575,17 +578,14 @@ vivace_piano_lower = \relative c
   {
     \new Staff << \grave_begin \grave_violin >>
   }
-  
   \score
   {
     \new Staff << \courante_begin \courante_violin >>
   }
-  
   \score
   {
     \new Staff << \adagio_begin \adagio_violin >>
   }
-  
   \score
   {
     \new Staff << \vivace_begin \vivace_violin >>
