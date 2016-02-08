@@ -381,19 +381,19 @@ courante_piano_lower = \relative c
   r8 |
   \repeat volta 2
   {
-    <g g'>4. <g g'>8 <bes g'> <c a'>
+    <g g'>4. <g g'>8-. <bes g'>-. <c a'>-.
     <d a'>2 fis4
     g4. d8 ees4
     d4. d,8 d'16 a d,8
-    <g g'>4. <g g'>8 <bes g'> <c a'>
+    <g g'>4. <g g'>8-. <bes g'>-. <c a'>-.
     <d a'>2 fis4
     g4. d8 e4
     d4. a8 d16 a d,8
-    b' b' d b d b
-    c g c g c g
-    <a c> <f a> <a c> <f a> <a c> <f a>
-    bes f bes f bes f
-    a fis a fis d d
+    b'-. b'-. d-. b-. d-. b-.
+    c-. g-. c-. g-. c-. g-.
+    <a c>-. <f a>-. <a c>-. <f a>-. <a c>-. <f a>-.
+    bes-. f-. bes-. f-. bes-. f-.
+    a-. fis-. a-. fis-. d d
     <g, g'>2 <fis fis'>4
     <g g'>8 <f! f'!> <ees ees'>2
     <d d'>4 <d'' fis> r
@@ -414,7 +414,7 @@ courante_piano_lower = \relative c
     f' f,2
     <bes f'> <bes f'>4
     ees4. d8 c bes
-    f'4 f, d'16 e f8
+    f'4 f, d'16( e f8)
     <e, e'>4 <cis cis'> <a a'>
     <d d'>8 <e e'> <f f'> <g g'> <f f'> <e e'>
     <d d'>4 <a' e'>2
@@ -442,7 +442,7 @@ courante_piano_lower = \relative c
       <g d' g>8 f'16 ees d ees d c bes c bes a
     }
   }
-  g4 <g d' g>8 r8 r4
+  g4( <g d' g>8) r8 r4
   \bar "|."
 }
 
