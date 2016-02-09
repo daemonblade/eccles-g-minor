@@ -664,129 +664,165 @@ vivace_begin =
 
 vivace_violin = \new Voice \relative c''
 {
-  g16(\p d') d d d c
-  bes c bes a g8
-  d'16 g g g g a
-  fis g fis e d fis
-  g bes bes bes bes bes
-  ees, g g g g g
-  c, f f f f f
-  d ees d c bes c
-  d g g g g f
-  e f e d c g'
-  c g a bes a g
-  fis g fis e d c
-  bes g' bes, g' bes, g'
-  c, g' c, g' c, g'
-  d g d g d g
-  ees g ees g ees g
-  bes, g' bes, g' bes, g'
-  c, g' c, g' c, g'
-  d g fis a d, fis
-  g4 a8
-  bes16 a g f ees d
-  g f ees d c bes
-  c d ees d c bes
-  a bes a bes c a
-  f bes bes bes bes bes
-  f c' c c c c
-  f, d' d d d d
-  f, ees' ees ees ees ees
-  f, bes f bes f bes
-  f c' f, c' f, c'
-  f, d' f, d' f, d'
-  f, ees' f, ees' f, ees'
-  f g f ees d bes'
-  bes, c c8. bes16
+  \repeat volta 2
+  {
+    g16(\p d') d d d c
+    bes c bes a g8
+    d'16 g g g g a
+    fis g fis e d fis
+    g bes bes bes bes bes
+    ees, g g g g g
+    c, f f f f f
+    d ees d c bes c
+    d g g g g f
+    e f e d c g'
+    c g a bes a g
+    fis g fis e d c
+    bes g' bes, g' bes, g'
+    c, g' c, g' c, g'
+    d g d g d g
+    ees g ees g ees g
+    bes, g' bes, g' bes, g'
+    c, g' c, g' c, g'
+    d g fis a d, fis
+    g4 a8
+    bes16 a g f ees d
+    g f ees d c bes
+    c d ees d c bes
+    a bes a bes c a
+    f bes bes bes bes bes
+    f c' c c c c
+    f, d' d d d d
+    f, ees' ees ees ees ees
+    f, bes f bes f bes
+    f c' f, c' f, c'
+    f, d' f, d' f, d'
+    f, ees' f, ees' f, ees'
+    f g f ees d bes'
+    bes, c c8. bes16
+  }
+  \alternative
+  {
+	{
+	  bes4 r8
+	}
+	{
+	  bes4 d8
+	}
+  }
 }
 
 vivace_piano_upper = \relative c''
 {
   \clef treble
-  <bes, d>8-. <a d>4->
-  <bes d>8 r <bes g'>
-  <d bes'> <g d'> <bes g'>
-  <a fis'>4 <fis a>8
-  <bes d> <g bes> <bes d>
-  <c ees> <g c> <c ees>
-  <a c> <f a> <a c>
-  <bes d> <f bes> <bes d>
-  <d, f g>4 <f g d'>8 <e g> e16 g c8
-  <ees,! g a>4 <c g' a>8
-  <d fis a> <d' fis>16 <e g> <f a>8
-  <d g> <bes d> <g bes>
-  <ees' g> <c ees> <a c>
-  <d g> <bes d> <g bes>
-  <ees' g> <c ees> <g c>
-  <d g> <bes d> <g bes>
-  <ees' g> <c ees> <a c>
-  <d g> <a ees' a> <a d fis>
-  <bes d g>4 <d fis a>8
-  <d g bes> r r
-  <ees g bes> r r
-  <ees g c> <ees f c'> <d f bes>
-  <c f a> <c f c'>4
-  <bes' d>8 <f bes> <bes d>
-  <a ees'> <f c'> <a ees'>
-  <bes d> <f bes> <bes d>
-  <a c> <f a> <a c>
-  <f bes d f> r <f bes d f>
-  <f c' ees f> r <f c' ees f>
-  <f bes d f> r <f bes d f>
-  <f c' ees f> r <f c' ees f>
-  <f bes> <ees f a> <d f bes>
-  <c g' bes>
-    <<
-      {
-        bes' a
-      } \\
-      {
-        <c, f>4
-      }
-    >>
+  \repeat volta 2
+  {
+    <bes, d>8-. <a d>4->
+    <bes d>8 r <bes g'>
+    <d bes'> <g d'> <bes g'>
+    <a fis'>4 <fis a>8
+    <bes d> <g bes> <bes d>
+    <c ees> <g c> <c ees>
+    <a c> <f a> <a c>
+    <bes d> <f bes> <bes d>
+    <d, f g>4 <f g d'>8 <e g> e16 g c8
+    <ees,! g a>4 <c g' a>8
+    <d fis a> <d' fis>16 <e g> <f a>8
+    <d g> <bes d> <g bes>
+    <ees' g> <c ees> <a c>
+    <d g> <bes d> <g bes>
+    <ees' g> <c ees> <g c>
+    <d g> <bes d> <g bes>
+    <ees' g> <c ees> <a c>
+    <d g> <a ees' a> <a d fis>
+    <bes d g>4 <d fis a>8
+    <d g bes> r r
+    <ees g bes> r r
+    <ees g c> <ees f c'> <d f bes>
+    <c f a> <c f c'>4
+    <bes' d>8 <f bes> <bes d>
+    <a ees'> <f c'> <a ees'>
+    <bes d> <f bes> <bes d>
+    <a c> <f a> <a c>
+    <f bes d f> r <f bes d f>
+    <f c' ees f> r <f c' ees f>
+    <f bes d f> r <f bes d f>
+    <f c' ees f> r <f c' ees f>
+    <f bes> <ees f a> <d f bes>
+    <c g' bes>
+      <<
+        {
+          bes' a
+        } \\
+        {
+          <c, f>4
+        }
+      >>
+  }
+  \alternative
+  {
+	{
+	  <d f bes>8 r16 bes bes'8
+	}
+	{
+	  <d, f bes>4 <d f>8
+	}
+  }
 }
 
 vivace_piano_lower = \relative c
 {
   \clef bass
-  g'8-. fis-. d-.
-  g r g,
-  g' bes d
-  d4 d,8
-  \clef treble
-  g' d g
-  g ees g
-  f c f
-  f d f
-  \clef bass
-  b, g b
-  c c, r
-  c' a ees
-  d4 d,8
-  <g d' bes'> r r
-  <a ees' c'> r r
-  <g g' d'> r r
-  <c g' ees'> r r
-  <g bes d g> r r
-  <a c ees g> r r
-  <bes d g> <c, c'> <d d'>
-  <g, g'>4 d''8
-  g r r
-  ees r r
-  c a bes
-  f <a f'>4
-  \clef treble
-  <bes' f'>8 <bes d> <bes f'>
-  <bes f'> <bes ees> <bes f'>
-  <bes f'> <bes d> <bes f'>
-  \clef bass
-  <f c'> <f c'> <f c'>
-  bes d bes
-  a f a
-  bes d bes
-  a f a
-  <d,, d'> <c c'> <bes bes'>
-  <ees ees'> <f f'>4
+  \repeat volta 2
+  {
+    g'8-. fis-. d-.
+    g r g,
+    g' bes d
+    d4 d,8
+    \clef treble
+    g' d g
+    g ees g
+    f c f
+    f d f
+    \clef bass
+    b, g b
+    c c, r
+    c' a ees
+    d4 d,8
+    <g d' bes'> r r
+    <a ees' c'> r r
+    <g g' d'> r r
+    <c g' ees'> r r
+    <g bes d g> r r
+    <a c ees g> r r
+    <bes d g> <c, c'> <d d'>
+    <g, g'>4 d''8
+    g r r
+    ees r r
+    c a bes
+    f <a f'>4
+    \clef treble
+    <bes' f'>8 <bes d> <bes f'>
+    <bes f'> <bes ees> <bes f'>
+    <bes f'> <bes d> <bes f'>
+    \clef bass
+    <f c'> <f c'> <f c'>
+    bes d bes
+    a f a
+    bes d bes
+    a f a
+    <d,, d'> <c c'> <bes bes'>
+    <ees ees'> <f f'>4
+  }
+  \alternative
+  {
+	{
+	  bes16 f' bes s s s
+	}
+	{
+	  <bes, f' bes>4 r8
+	}
+  }
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
