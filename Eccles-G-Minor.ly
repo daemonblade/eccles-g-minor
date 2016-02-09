@@ -470,6 +470,12 @@ adagio_violin = \new Voice \relative c''
   bes4 d, c2. bes4
   bes1 bes'2
   bes a4. bes8 g4. a8
+  fis2. d4 g4. d8
+  c4. bes8 a2. g4
+  g2. d'4 ees4. d8
+  d2. d4 ees4. d8
+  d2. d4 ees4. d8
+  c4. bes8 a2. g4
 }
 
 adagio_piano_upper = \relative c''
@@ -515,6 +521,42 @@ adagio_piano_upper = \relative c''
       <g, bes>4 <g bes> <g a> <g a> <g bes> <g a>
     }
   >>
+  d'2
+    <<
+      {
+        fis g
+      } \\
+      {
+        <a, d>4 <a d> <g d'> <g d'>
+      }
+    >>
+  <<
+    {
+      g'2 g fis
+    } \\
+    {
+      <a, ees'>4 <a ees'> <c ees> <c ees> <c d> <c d>
+    }
+  >>
+  <<
+    {
+      g'2 s
+    } \\
+    {
+      <bes, d>4 <bes d> <bes d> <bes d>
+    }
+  >> <a c ees> <a c ees>
+  <bes d> <bes d> <bes d> <bes d> <g ees'> <a ees'>
+  <f bes d> <f bes d> <bes d> <bes d> <a c> <a c>
+  <c ees> <c ees>8 <bes d>
+    <<
+      {
+        d2 d
+      } \\
+      {
+        <g, a>4 <g a> <fis a>2
+      }
+    >>
 }
 
 adagio_piano_lower = \relative c
@@ -565,6 +607,19 @@ adagio_piano_lower = \relative c
   <bes bes'> <f' f'>1
   bes2. a4 g2
   <c, c'>1 <cis cis'>2
+  <<
+    {
+      <fis' a>4 <fis a> s2 s2
+    } \\
+    {
+      <d, d'>2. <c! c'!>4 <bes bes'>2
+    }
+  >>
+  <c c'> <d d'> ~ <d d'>
+  <g, g'> <g' g'> <fis fis'>
+  <g g'> <g d'> <f f'>
+  bes <g g'> <fis fis'>
+  <g g'> d' d,
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
