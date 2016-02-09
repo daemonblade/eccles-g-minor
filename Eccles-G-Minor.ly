@@ -846,41 +846,41 @@ vivace_piano_lower = \relative c
   {
     g'8-. fis-. d-.
     g r g,
-    g' bes d
+    g'-. bes-. d-.
     d4 d,8
     \clef treble
-    g' d g
-    g ees g
-    f c f
-    f d f
+    g'-. d-. g-.
+    g-. ees-. g-.
+    f-. c-. f-.
+    f-. d-. f-.
     \clef bass
-    b, g b
+    b,-. g-. b-.
     c c, r
     c' a ees
     d4 d,8
-    <g d' bes'> r r
-    <a ees' c'> r r
+    <g d' bes'>\arpeggio r r
+    <a ees' c'>\arpeggio r r
     <g g' d'> r r
     <c g' ees'> r r
     <g bes d g> r r
     <a c ees g> r r
-    <bes d g> <c, c'> <d d'>
+    <bes d g>-. <c, c'>-. <d d'>-.
     <g, g'>4 d''8
     g r r
     ees r r
-    c a bes
-    f <a f'>4
+    c-. a-. bes-.
+    f <a f'>4->
     \clef treble
-    <bes' f'>8 <bes d> <bes f'>
-    <bes f'> <bes ees> <bes f'>
-    <bes f'> <bes d> <bes f'>
+    <bes' f'>8-. <bes d>-. <bes f'>-.
+    <bes f'>-. <bes ees>-. <bes f'>-.
+    <bes f'>-. <bes d>-. <bes f'>-.
     \clef bass
-    <f c'> <f c'> <f c'>
-    bes d bes
-    a f a
-    bes d bes
-    a f a
-    <d,, d'> <c c'> <bes bes'>
+    <f c'>-. <f c'>-. <f c'>-.
+    bes-. d-. bes-.
+    a-. f-. a-.
+    bes-. d-. bes-.
+    a-. f-. a-.
+    <d,, d'>-. <c c'>-. <bes bes'>-.
     <ees ees'> <f f'>4
   }
   \alternative
@@ -893,21 +893,21 @@ vivace_piano_lower = \relative c
     }
   }
   b' g b
-  c c16 d e8
-  cis a cis
-  d d16 e fis8
-  g, bes g
-  fis d fis
-  g bes g
-  fis d fis
-  g, bes d
-  fis, d fis
+  c c16( d e8)
+  cis-. a-. cis-.
+  d d16( e fis8)
+  g,-. bes-. g-.
+  fis-. d-. fis-.
+  g-. bes-. g-.
+  fis-. d-. fis-.
+  g,-. bes-. d-.
+  fis,-. d-. fis-.
   <g d' bes'> r r
   <fis d' a'> r r
   <g g'> r <d d'>
-  <ees ees'> <d d'> <c c'>
+  <ees ees'>-. <d d'>-. <c c'>-.
   <bes bes'> <d d'>4
-  <g d'>8 <b d> <g d'>
+  <g d'>8-. <b d>-. <g d'>-.
   c ees g
   a, c a
   fis d g
