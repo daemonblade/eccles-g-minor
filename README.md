@@ -7,8 +7,8 @@ arrangement for violin and piano; using Lilypond.
 
 To build from source, Lilypond 2.18.2 or better is required. Two artifacts
 are generated:
- * Eccles-G-Minor-All - violin and piano accompaniment
- * Eccles-G-Minor-Violin - violin only
+ * **Eccles-G-Minor-All** violin and piano accompaniment
+ * **Eccles-G-Minor-Violin** violin only
 
 To generate PDF files:
 
