@@ -286,29 +286,23 @@ courante_piano_upper = \relative c''
     <<
       {
         a'4( g) <c, g'>8 ~ <b! g'>
-      } \\
-      {
-        <a d>8 g b16 c d8 g,8 g
-      }
-    >>
-    <<
-      {
         g'4 <g, d' g>2
       } \\
       {
+        <a d>8 g b16 c d8 g,8 g
         <g c>8 <aes c> c4( b)
       }
     >>
     <g c g'>4. r8 r4
     r16\p c ees c f8 r8
-    <<
-      {
-        a4
-      } \\
-      {
-        c,8( ees)
-      }
-    >>
+      <<
+        {
+          a4
+        } \\
+        {
+          c,8( ees)
+        }
+      >>
     <<
       {
         f4 f8( bes) bes( d)
