@@ -454,32 +454,32 @@ adagio_begin =
 adagio_violin = \new Voice \relative c''
 {
   r2 r d\mf
-  c2. ees4 d4. c8
-  bes4. a8 g2 d'
-  g2. bes4 a4. g8
-  fis4. e8 d2 g4. d8
-  d4. c8 c2. c4
-  c2 bes d
-  ees4. a,8 a2. g4
-  g2 ~ g g'
-  f4 bes, f'4. g8 f4. g8
-  ees4 g, ees'4. f8 ees4. f8
-  d4 f, d'4. ees8 d4. ees8
-  c2 f, r4 d'
-  c2 f, f'
-  bes4 d, c2. bes4
+  c2. ees4 d4.( c8)
+  bes4.( a8) g2 d'
+  g2. bes4 a4.( g8)
+  fis4.( e8) d2 g4.( d8)
+  d4.( c8) c2. c4
+  c2( bes) d
+  ees4.( a,8) a2.\trill g4
+  g2 ~ g g'(
+  f4) bes,( f'4. g8) f4.( g8
+  ees4) g,( ees'4. f8) ees4.( f8
+  d4) f,( d'4. ees8) d4.( ees8)
+  c2 f, r4 d'\pp
+  c2( f,) f'\f
+  bes4( d,) c2.\trill bes4
   bes1 bes'2
-  bes a4. bes8 g4. a8
-  fis2. d4 g4. d8
-  c4. bes8 a2. g4
-  g2. d'4 ees4. d8
-  d2. d4 ees4. d8
-  d2. d4 ees4. d8
-  c4. bes8 a2. g4
-  g2. d4 g4. a,8
-  bes4. c8 c2. d4
+  bes a4.( bes8) g4.( a8)
+  fis2. d4 g4.( d8)
+  c4.( bes8) a2.\trill g4
+  g2.\< d'4\!\f ees4.( d8)
+  d2. d4\pp ees4.( d8)
+  d2.\< d4\!\f ees4.( d8)
+  c4.( bes8) a2.\trill g4
+  g2. d4 g4.( a,8)
+  bes4.( c8) c2.\trill d4
   d1.
-  d1.
+  d1.\fermata
   \bar "|."
 }
 
