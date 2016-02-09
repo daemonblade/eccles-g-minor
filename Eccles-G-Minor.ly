@@ -562,6 +562,7 @@ adagio_piano_upper = \relative c''
         <g, a>4 <g a> <fis a>2
       }
     >>
+  \clef bass
   <d g bes d>4 <d g bes d> <bes' d> <bes d>
     <<
       {
@@ -571,7 +572,6 @@ adagio_piano_upper = \relative c''
         bes4. a8
       }
     >>
-  \clef bass
   <g bes d>4 <g bes d> <g a c> <g a c> <g a c> <g a c>
   <fis a d> <fis a d> <ees g d'> <ees g d'> <e g d'> <e g d'>
   <fis d'>1.
