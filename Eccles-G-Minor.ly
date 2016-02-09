@@ -681,6 +681,17 @@ vivace_violin = \new Voice \relative c''
   d g d g d g
   ees g ees g ees g
   bes, g' bes, g' bes, g'
+  c, g' c, g' c, g'
+  d g fis a d, fis
+  g4 a8
+  bes16 a g f ees d
+  g f ees d c bes
+  c d ees d c bes
+  a bes a bes c a
+  f bes bes bes bes bes
+  f c' c c c c
+  f, d' d d d d
+  f, ees' ees ees ees ees
 }
 
 vivace_piano_upper = \relative c''
@@ -702,6 +713,17 @@ vivace_piano_upper = \relative c''
   <d g> <bes d> <g bes>
   <ees' g> <c ees> <g c>
   <d g> <bes d> <g bes>
+  <ees' g> <c ees> <a c>
+  <d g> <a ees' a> <a d fis>
+  <bes d g>4 <d fis a>8
+  <d g bes> r r
+  <ees g bes> r r
+  <ees g c> <ees f c'> <d f bes>
+  <c f a> <c f c'>4
+  <bes' d>8 <f bes> <bes d>
+  <a ees'> <f c'> <a ees'>
+  <bes d> <f bes> <bes d>
+  <a c> <f a> <a c>
 }
 
 vivace_piano_lower = \relative c
@@ -726,6 +748,19 @@ vivace_piano_lower = \relative c
   <g g' d'> r r
   <c g' ees'> r r
   <g bes d g> r r
+  <a c ees g> r r
+  <bes d g> <c, c'> <d d'>
+  <g, g'>4 d''8
+  g r r
+  ees r r
+  c a bes
+  f <a f'>4
+  \clef treble
+  <bes' f'>8 <bes d> <bes f'>
+  <bes f'> <bes ees> <bes f'>
+  <bes f'> <bes d> <bes f'>
+  \clef bass
+  <f c'> <f c'> <f c'>
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
