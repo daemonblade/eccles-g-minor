@@ -665,18 +665,67 @@ vivace_begin =
 vivace_violin = \new Voice \relative c''
 {
   g16(\p d') d d d c
+  bes c bes a g8
+  d'16 g g g g a
+  fis g fis e d fis
+  g bes bes bes bes bes
+  ees, g g g g g
+  c, f f f f f
+  d ees d c bes c
+  d g g g g f
+  e f e d c g'
+  c g a bes a g
+  fis g fis e d c
+  bes g' bes, g' bes, g'
+  c, g' c, g' c, g'
+  d g d g d g
+  ees g ees g ees g
+  bes, g' bes, g' bes, g'
 }
 
 vivace_piano_upper = \relative c''
 {
   \clef treble
   <bes, d>8-. <a d>4->
+  <bes d>8 r <bes g'>
+  <d bes'> <g d'> <bes g'>
+  <a fis'>4 <fis a>8
+  <bes d> <g bes> <bes d>
+  <c ees> <g c> <c ees>
+  <a c> <f a> <a c>
+  <bes d> <f bes> <bes d>
+  <d, f g>4 <f g d'>8 <e g> e16 g c8
+  <ees,! g a>4 <c g' a>8
+  <d fis a> <d' fis>16 <e g> <f a>8
+  <d g> <bes d> <g bes>
+  <ees' g> <c ees> <a c>
+  <d g> <bes d> <g bes>
+  <ees' g> <c ees> <g c>
+  <d g> <bes d> <g bes>
 }
 
 vivace_piano_lower = \relative c
 {
   \clef bass
   g'8-. fis-. d-.
+  g r g,
+  g' bes d
+  d4 d,8
+  \clef treble
+  g' d g
+  g ees g
+  f c f
+  f d f
+  \clef bass
+  b, g b
+  c c, r
+  c' a ees
+  d4 d,8
+  <g d' bes'> r r
+  <a ees' c'> r r
+  <g g' d'> r r
+  <c g' ees'> r r
+  <g bes d g> r r
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
