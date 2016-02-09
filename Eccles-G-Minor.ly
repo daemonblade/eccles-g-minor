@@ -486,7 +486,7 @@ adagio_violin = \new Voice \relative c''
 adagio_piano_upper = \relative c''
 {
   \clef treble
-  s2 s <g, bes d>4 <g bes d>
+  s2\pp s <g, bes d>4 <g bes d>
   <g c ees> <g c ees> <g c ees> <g c ees> <fis c' d> <fis c' d>
   <g bes d> <g bes d> <bes d> <bes d> <a d> <a d>
   <g d' g> <g d' g> <g c g'> <g c g'> <g a ees'> <g a ees'>
@@ -495,7 +495,7 @@ adagio_piano_upper = \relative c''
   <fis c' d> <fis c' d> <g bes d> <g bes d>
     <<
       {
-        d' g
+        d'( g)
       } \\
       {
         g,2
@@ -503,11 +503,11 @@ adagio_piano_upper = \relative c''
     >>
   <a ees' g>4 <a ees' g> <a d g> <a d g> <a d fis>2
   <bes d g>4 <bes d g> <bes d g>2 r
-  <f' d' f>4 <g d' f> <f d' f> <g d' f> <f d' f> <g d' f>
+  <f' d' f>4\pp <g d' f> <f d' f> <g d' f> <f d' f> <g d' f>
   <f c' ees f> <g c ees f> <f c' ees f> <g c ees f> <f c' ees f> <g c ees f>
   <f c' d f> <g c d f> <f d' f> <g bes d> <f bes> <d f g>
-  <a c f> <a c f> <bes d f> <d f a> <f bes d> <bes d f>
-  <a c> <a c> <f bes> <d f> <a c ees f> <a c ees f>
+  <a c f> <a c f> <bes d f> <d f a> <f bes d> <bes d f>\pp
+  <a c> <a c> <f bes> <d f> <a c ees f>\f <a c ees f>
   <bes d f> <bes d f>
     <<
       {
@@ -548,11 +548,11 @@ adagio_piano_upper = \relative c''
       g'2 s
     } \\
     {
-      <bes, d>4 <bes d> <bes d> <bes d>
+      <bes, d>4 <bes d>\< <bes d> <bes d>\!
     }
-  >> <a c ees> <a c ees>
-  <bes d> <bes d> <bes d> <bes d> <g ees'> <a ees'>
-  <f bes d> <f bes d> <bes d> <bes d> <a c> <a c>
+  >> <a c ees>\f <a c ees>
+  <bes d> <bes d> <bes d> <bes d>\pp <g ees'> <a ees'>
+  <f bes d>\< <f bes d> <bes d> <bes d>\! <a c>\f <a c>
   <c ees> <c ees>8 <bes d>
     <<
       {
@@ -574,7 +574,7 @@ adagio_piano_upper = \relative c''
     >>
   <g bes d>4 <g bes d> <g a c> <g a c> <g a c> <g a c>
   <fis a d> <fis a d> <ees g d'> <ees g d'> <e g d'> <e g d'>
-  <fis d'>1.
+  <fis d'>1.\fermata
   \bar "|."
 }
 
