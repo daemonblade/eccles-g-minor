@@ -667,22 +667,22 @@ vivace_violin = \new Voice \relative c''
   \repeat volta 2
   {
     g16(\p d') d d d c
-    bes c bes a g8
-    d'16 g g g g a
-    fis g fis e d fis
-    g bes bes bes bes bes
-    ees, g g g g g
-    c, f f f f f
-    d ees d c bes c
-    d g g g g f
-    e f e d c g'
-    c g a bes a g
-    fis g fis e d c
+    bes( c) bes a g8
+    d'16( g) g g g a
+    fis( g) fis e d fis
+    g( bes) bes bes bes bes
+    ees,( g) g g g g
+    c,( f) f f f f
+    d( ees) d c bes c
+    d( g) g g g f
+    e( f) e d c g'
+    c g( a) bes a g
+    fis g( fis) e d( c)
     bes g' bes, g' bes, g'
     c, g' c, g' c, g'
     d g d g d g
     ees g ees g ees g
-    bes, g' bes, g' bes, g'
+    bes,\mf g' bes, g' bes, g'
     c, g' c, g' c, g'
     d g fis a d, fis
     g4 a8
@@ -690,16 +690,16 @@ vivace_violin = \new Voice \relative c''
     g f ees d c bes
     c d ees d c bes
     a bes a bes c a
-    f bes bes bes bes bes
-    f c' c c c c
-    f, d' d d d d
-    f, ees' ees ees ees ees
-    f, bes f bes f bes
-    f c' f, c' f, c'
-    f, d' f, d' f, d'
-    f, ees' f, ees' f, ees'
-    f g f ees d bes'
-    bes, c c8. bes16
+    f( bes) bes-. bes-. bes-. bes-.
+    f( c') c-. c-. c-. c-.
+    f,( d') d-. d-. d-. d-.
+    f,( ees') ees-. ees-. ees-. ees-.
+    f,-. bes-. f-. bes-. f-. bes-.
+    f-. c'-. f,-. c'-. f,-. c'-.
+    f,-. d'-. f,-. d'-. f,-. d'-.
+    f,-. ees'-. f,-. ees'-. f,-. ees'-.
+    f( g) f ees d( bes')
+    bes,( c) c8.\trill bes16
   }
   \alternative
   {
@@ -707,37 +707,37 @@ vivace_violin = \new Voice \relative c''
       bes4 r8
     }
     {
-      bes4 d8
+      bes4 d8\p
     }
   }
   g16 f g a g f
   e f e d c e
   a g a bes a g
   fis4 d8
-  g16 d d d d d
-  a' d, d d d d
-  bes' d, d d d d
-  a' d, d d d d
-  g d g d g d
-  a' d, a' d, a' d,
-  bes' d, bes' d, bes' d,
-  a' d, a' d, a' d,
-  g a bes a g fis
-  g a bes a g fis
-  g a bes a g fis
-  g aes g f! g d
-  ees f g f ees d
-  c d ees d c bes
-  a bes c bes a g
-  fis e d8 d'
-  ees! a,4
-  g16 bes bes d d g
-  g d d bes bes g
-  d' bes bes g g d
-  bes' g g d d bes
-  g bes d g bes d
+  g16( d) d d d d
+  a'( d,) d d d d
+  bes'( d,) d d d d
+  a'( d,) d d d d
+  g( d) g( d) g( d)
+  a'( d,) a'( d,) a'( d,)
+  bes'( d,) bes'( d,) bes'( d,)
+  a'( d,) a'( d,) a'( d,)
+  g( a) bes a g fis
+  g( a) bes a g fis
+  g( a) bes a g fis
+  g( aes) g f! g d
+  ees( f) g f ees d
+  c( d) ees d c bes
+  a( bes) c bes a g
+  fis e d8-. d'-.
+  ees! a,4\trill
+  g16( bes) bes( d) d( g)
+  g(\< d) d( bes) bes( g)
+  d'( bes) bes( g) g( d)\!
+  bes'(\< g) g( d) d( bes)
+  g bes d g bes\! d
   g4 r8
-  <d, a' fis'>4 r8
+  <d, a' fis'>4\f r8
   <g, d' bes' g'>4 r8
   \bar "|."
 }
