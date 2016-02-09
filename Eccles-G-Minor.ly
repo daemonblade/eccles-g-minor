@@ -747,42 +747,43 @@ vivace_piano_upper = \relative c''
   \clef treble
   \repeat volta 2
   {
-    <bes, d>8-. <a d>4->
+    <bes, d>8-.\p <a d>4->
     <bes d>8 r <bes g'>
-    <d bes'> <g d'> <bes g'>
-    <a fis'>4 <fis a>8
-    <bes d> <g bes> <bes d>
-    <c ees> <g c> <c ees>
-    <a c> <f a> <a c>
-    <bes d> <f bes> <bes d>
-    <d, f g>4 <f g d'>8 <e g> e16 g c8
-    <ees,! g a>4 <c g' a>8
-    <d fis a> <d' fis>16 <e g> <f a>8
-    <d g> <bes d> <g bes>
-    <ees' g> <c ees> <a c>
-    <d g> <bes d> <g bes>
-    <ees' g> <c ees> <g c>
-    <d g> <bes d> <g bes>
-    <ees' g> <c ees> <a c>
-    <d g> <a ees' a> <a d fis>
-    <bes d g>4 <d fis a>8
+    <d bes'>-. <g d'>-. <bes g'>-.
+    <a fis'>4( <fis a>8)
+    <bes d>-.\pp <g bes>-. <bes d>-.
+    <c ees>-. <g c>-. <c ees>-.
+    <a c>-. <f a>-. <a c>-.
+    <bes d>-. <f bes>-. <bes d>-.
+    <d, f g>4 <f g d'>8
+    <e g> e16( g c8)
+    <ees,! g a>4\p <c g' a>8
+    <d fis a> <d' fis>16( <e g> <f a>8)
+    <d g>-.\pp <bes d>-. <g bes>-.
+    <ees' g>-. <c ees>-. <a c>-.
+    <d g>-. <bes d>-. <g bes>-.
+    <ees' g>-. <c ees>-. <g c>-.
+    <d g>-.\mf <bes d>-. <g bes>-.
+    <ees' g>-. <c ees>-. <a c>-.
+    <d g>-. <a ees' a>-. <a d fis>-.
+    <bes d g>4 <d fis a>8\p
     <d g bes> r r
     <ees g bes> r r
-    <ees g c> <ees f c'> <d f bes>
-    <c f a> <c f c'>4
-    <bes' d>8 <f bes> <bes d>
-    <a ees'> <f c'> <a ees'>
-    <bes d> <f bes> <bes d>
-    <a c> <f a> <a c>
+    <ees g c>-. <ees f c'>-. <d f bes>-.
+    <c f a> <c f c'>4->
+    <bes' d>8-.\pp <f bes>-. <bes d>-.
+    <a ees'>-. <f c'>-. <a ees'>-.
+    <bes d>-. <f bes>-. <bes d>-.
+    <a c>-. <f a>-. <a c>-.
     <f bes d f> r <f bes d f>
     <f c' ees f> r <f c' ees f>
     <f bes d f> r <f bes d f>
     <f c' ees f> r <f c' ees f>
-    <f bes> <ees f a> <d f bes>
+    <f bes>-. <ees f a>-. <d f bes>-.
     <c g' bes>
       <<
         {
-          bes' a
+          bes'( a)
         } \\
         {
           <c, f>4
@@ -799,21 +800,21 @@ vivace_piano_upper = \relative c''
     }
   }
   <d f g>4 <d f g>8
-  <e g> e16 f g8
-  <e g a>4 <e g a>8
-  <fis a> fis16 g a8
-  <d, bes'> <d g> <d bes'>
-  <d a'> <a fis'> <d a'>
-  <bes d> <d g> <bes d>
-  <a d> <a fis'> <d a'>
+  <e g> e16(\< f g8)\!
+  <e g a>4\p <e g a>8
+  <fis a> fis16(\< g a8)\!
+  <d, bes'>-.\pp <d g>-. <d bes'>-.
+  <d a'>-. <a fis'>-. <d a'>-.
+  <bes d>-. <d g>-. <bes d>-.
+  <a d>-. <a fis'>-. <d a'>-.
   <d bes' d>4 r8
   <d a' c d>4 r8
-  <bes' d> <g bes> <d g>
-  <a' d> <fis a> <d fis>
+  <bes' d>-. <g bes>-. <d g>-.
+  <a' d>-. <fis a>-. <d fis>-.
   <d bes' d> <d g> <c d fis>
-  <bes ees g> <c ees fis> <a ees' a>
-  <d g> <bes d> <a c d>
-  <b g'> <d g> <b g'>
+  <bes ees g>-. <c ees fis>-. <a ees' a>-.
+  <d g>-. <bes d>-. <a c d>-.
+  <b g'>-.\p <d g>-. <b g'>-.
   <g ees'> <c g'> <ees c'>
   <ees g c> <ees g> <ees g c>
   <d c'> <fis a> <d g bes>
@@ -832,7 +833,7 @@ vivace_piano_upper = \relative c''
   <g bes>
   <d g>
   <bes d>
-  g16 c ees g c ees
+  g16\f c ees g c ees
   <a, d fis>4 r8
   <bes d g>4 r8
   \bar "|."
