@@ -149,7 +149,7 @@ courante_violin = \new Voice \relative c''
     <g,, d' bes' g'> d''16 c bes8 g g, g''
     fis d a fis16 e d8 a''
     bes a( bes) fis g( c,)
-    d2 r8 d(
+    d2 r8 d(\p
     g) d16( c) bes8 g g, g''
     fis d a fis16( e) d8 a''
     bes a( bes) fis g( c,)
@@ -461,7 +461,7 @@ adagio_violin = \new Voice \relative c''
   d4.( c8) c2. c4
   c2( bes) d
   ees4.( a,8) a2.\trill g4
-  g2 ~ g g'(
+  g2 ~ g g'(\pp
   f4) bes,( f'4. g8) f4.( g8
   ees4) g,( ees'4. f8) ees4.( f8
   d4) f,( d'4. ees8) d4.( ees8)
