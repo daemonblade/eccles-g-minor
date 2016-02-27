@@ -84,7 +84,7 @@ grave_piano_upper = \relative c''
   <f bes d>\pp <f bes d> <f a d> <f a d>
     <d bes' d> <g bes d> <f bes f'> <f bes f'>
   \clef treble
-  <g' bes ees> <g bes ees> <g c ees> <g c ees>
+  <g bes ees> <g bes ees> <g c ees> <g c ees>
     <f a ees'> <f a f'> <f bes f'> ~ <fis bes fis'>
   <bes ees a> <bes ees g> <bes c g'> <bes c gis'>
     <c f bes> <c ees! a> <bes ees gis bes> <bes ees gis bes>
