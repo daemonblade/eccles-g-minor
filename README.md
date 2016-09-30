@@ -4,7 +4,7 @@ A transcription of Eccles' Sonata in G Minor from J. Salmon's 1914
 arrangement for violin and piano; using Lilypond.
 
 The PDF output is available for download at the project's associated
-[Github Page](http://daemonblade.github.io/eccles-g-minor/).
+[Github Page](https://daemonblade.github.io/eccles-g-minor/).
 
 ## Compiling from Source
 
