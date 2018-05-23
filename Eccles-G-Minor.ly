@@ -2,18 +2,18 @@
 % Eccles Sonata in G Minor.
 % Transcribed from J Salmon's 1914 arrangement for violin and piano.
 %
-% copyright: 2016 Jonathan Chen
+% copyright: 2016-2018 Jonathan Chen
 % source: https://github.com/daemonblade/eccles-g-minor
 % style: indent 2 spaces, 80 cols, 1 bar/line
 %
-\version "2.18.2"
+\version "2.19.81"
 
 \header
 {
   title = "Sonata in G Minor"
   composer = "Henri Eccles (1670-1742)"
   tagline = "https://github.com/daemonblade/eccles-g-minor"
-  copyright = \markup { \char ##x00A9 "2016 Jonathan Chen" }
+  copyright = \markup { \char ##x00A9 "2016-2018 Jonathan Chen" }
 }
 
 grave_begin =
